@@ -1,0 +1,35 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 70px;
+    color: white;
+}
+
+.nav-logo{
+    font-size: 40px;
+    font-weight: 600;
+    font-size: Outfit;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    gap: 50px;
+}
+
+.nav-contact{
+    border-radius: 50px;
+    padding: 10px 38px;
+    background-color: white;
+    color: #262626;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .nav-menu{
+        display: none;
+    }
+}
